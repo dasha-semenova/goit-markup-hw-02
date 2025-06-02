@@ -1,46 +1,104 @@
 body{
     font-family: "Roboto", sans-serif;
-    color: #2E2F42;
+    color: #434455;
     letter-spacing: 2%;
     line-height: 1.5;
-    background-color: white;
+    background-color: #FFFFFF;
+}
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    color: #4D5AE5;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.logo-studio-black{
+    color: #2E2F42;
+}
+
+.logo-studio-white {
+    color: #F4F4FD;
 }
 
 a{
     text-decoration: none;
 }
-h1 {
+.page-hero-title {
     font-weight: bold;
     font-size: 56px;
     line-height: 1.07;
-    color: white;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
-h2 {
-    font-weight: bold;
+.page-subtitle-2 {
+    font-weight: 500;
     font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
-h3 {
-    font-weight: medium;
+.page-subtitle-3 {
+    font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
+.page-our-team-list{
+    background-color: #FFFFFF;
+}
+.page-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.page-text-light {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
 ul {
     list-style-type: none;
 }
-
-address{
-    font-style: normal;
-}
-
-.page-main-menu .page-link,
-.page-contacts .page-link{
+.page-main-menu .page-link{
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
+.page-main-menu .page-link:hover,
+.page-main-menu .page-link:focus{
+    color: #404bbf;
+}
+.page-contacts .page-link{
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.page-contacts .page-link:hover,
+.page-contacts .page-link:focus {
+    color: #404bbf;
+}
+
 .page-hero{
-    background-color: #2E2F42;
+    background-color: #2e2f42;
 }
 .page-our-team{
     background-color: #F4F4FD;
@@ -48,25 +106,17 @@ address{
 
 .page-footer{
     background-color: #2E2F42;
-    color: white;
-}
-
-.page-link:hover,
-.page-link:focus {
-    color: #404BBF;
 }
 
 .page-button{
     background-color: #4D5AE5;
-    color: white;
-    letter-spacing: 4%;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
     cursor: pointer;
-    border: 0;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    border-radius: 4px;
 }
 
 .page-button:hover,
