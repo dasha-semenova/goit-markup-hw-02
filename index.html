@@ -1,32 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>WebStudio-Effective Solutions for Your Business</title>
   </head>
   <body>
     <header>
+      <!--Хедер - Главное меню-->
       <nav>
         <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <ul class="page-main-menu">
+          <li><a href="" class="page-link">Studio</a></li>
+          <li><a href="" class="page-link">Portfolio</a></li>
+          <li><a href="" class="page-link">Contacts</a></li>
         </ul>
       </nav>
 
-      <address>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <!--Хедер - Блок контактов-->
+      <address class="page-contacts">
+        <ul>
+          <li>
+            <a href="mailto:info@devstudio.com" class="page-link">
+              info@devstudio.com
+            </a>
+          </li>
+          <li>
+            <a href="tel:+110001111111" class="page-link">
+              +11 (000) 111-11-11
+            </a>
+          </li>
+        </ul>
       </address>
     </header>
 
     <main>
       <!--Секция 1 - Блок вызова формы обратной связи-->
-      <section>
+      <section class="page-hero">
         <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <button type="button" class="page-button">Order Service</button>
       </section>
 
       <!--Секция 2 - Преимущества-->
@@ -65,7 +88,7 @@
       </section>
 
       <!--Секция 3 - Команда-->
-      <section>
+      <section class="page-our-team">
         <h2>Our Team</h2>
         <ul>
           <li>
@@ -110,9 +133,75 @@
           </li>
         </ul>
       </section>
+
+      <!--Секция 4 - Портфолио-->
+      <section>
+        <ul>
+          <li>
+            <img
+              src="./images/our-portfolio-banking-app.jpg"
+              alt="Banking App"
+              width="360px"
+              height="300px"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-portfolio-cashless-payment.jpg"
+              alt="Cashless Payment"
+              width="360px"
+              height="300px"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-portfolio-meditation-app.jpg"
+              alt="Meditation App"
+              width="360px"
+              height="300px"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-portfolio-taxi-service.jpg"
+              alt="Taxi Service"
+              width="360px"
+              height="300px"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-portfolio-screen-illustrations.jpg"
+              alt="Screen Illustrations"
+              width="360px"
+              height="300px"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-portfolio-online-courses.jpg"
+              alt="Online Courses"
+              width="360px"
+              height="300px"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
+        </ul>
+      </section>
     </main>
 
-    <footer>
+    <footer class="page-footer">
       <a href="./index.html">WebStudio</a>
       <p>
         Increase the flow of customers and sales for your business with digital

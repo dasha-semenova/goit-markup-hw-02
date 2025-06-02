@@ -1,0 +1,75 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    letter-spacing: 2%;
+    line-height: 1.5;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+h1 {
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 1.07;
+    color: white;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h3 {
+    font-weight: medium;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+address{
+    font-style: normal;
+}
+
+.page-main-menu .page-link,
+.page-contacts .page-link{
+    color: #2E2F42;
+}
+
+.page-hero{
+    background-color: #2E2F42;
+}
+.page-our-team{
+    background-color: #F4F4FD;
+}
+
+.page-footer{
+    background-color: #2E2F42;
+    color: white;
+}
+
+.page-link:hover,
+.page-link:focus {
+    color: #404BBF;
+}
+
+.page-button{
+    background-color: #4D5AE5;
+    color: white;
+    letter-spacing: 4%;
+    cursor: pointer;
+    border: 0;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 4px;
+}
+
+.page-button:hover,
+.page-button:focus{
+    background-color: #404BBF;
+}
