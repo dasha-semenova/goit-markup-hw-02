@@ -1,5 +1,5 @@
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #434455;
     letter-spacing: 2%;
     line-height: 1.5;
@@ -7,13 +7,13 @@ body{
 }
 
 .logo{
-    font-family: "Raleway", sans-serif;
-    color: #4D5AE5;
-    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;    
     line-height: 1.17;
     letter-spacing: 0.03em;
-    font-weight: 700;
     text-transform: uppercase;
+    color: #4d5ae5;
 }
 
 .logo-studio-black{
@@ -21,14 +21,13 @@ body{
 }
 
 .logo-studio-white {
-    color: #F4F4FD;
+    color: #f4f4fd;
 }
 
 a{
     text-decoration: none;
 }
 .page-hero-title {
-    font-weight: bold;
     font-size: 56px;
     line-height: 1.07;
     color: #FFFFFF;
@@ -37,7 +36,6 @@ a{
 }
 
 .page-subtitle-2 {
-    font-weight: 500;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -85,8 +83,10 @@ ul {
 .page-main-menu .page-link:focus{
     color: #404bbf;
 }
-.page-contacts .page-link{
+address{
     font-style: normal;
+}
+.page-contacts .page-link{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -105,12 +105,12 @@ ul {
 }
 
 .page-footer{
-    background-color: #2E2F42;
+    background-color: #2e2f42;
 }
 
 .page-button{
     background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: #FFFFFF;
