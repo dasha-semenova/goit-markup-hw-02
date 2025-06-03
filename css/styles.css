@@ -83,9 +83,11 @@ ul {
 .page-main-menu .page-link:focus {
     color: #404bbf;
 }
-address {
+
+.page-contacts {
     font-style: normal;
 }
+
 .page-contacts .page-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
