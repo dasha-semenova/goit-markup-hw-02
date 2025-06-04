@@ -35,7 +35,7 @@ a{
     letter-spacing: 0.02em;
 }
 
-.page-subtitle-2 {
+.page-subtitle-subject {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -44,7 +44,7 @@ a{
     color: #2e2f42;
 }
 
-.page-subtitle-3 {
+.page-subtitle-subject-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
